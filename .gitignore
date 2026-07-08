@@ -1,0 +1,9 @@
+
+# Local secrets
+.env
+.env.*
+!env.example
+env.txt
+env-manus.txt
+csw.txt
+git-hub_vercel.txt
