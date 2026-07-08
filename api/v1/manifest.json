@@ -1,0 +1,36 @@
+{
+  "repository": {
+    "name": "methodz-brand-assets",
+    "version": "1.0.0",
+    "description": "Official Methodz ecosystem brand asset registry"
+  },
+  "methodz": {
+    "main_logo": "logos/methodz/main-logo.png",
+    "main_logo_transparent": "logos/methodz/main-logo-transparent.png",
+    "trust_icon": "logos/methodz/trust-icon.png",
+    "stamp": "logos/methodz/stamp-of-approval.png",
+    "gold_trust_seal": "logos/methodz/gold-trust-seal.png",
+    "red_wax_seal": "logos/methodz/red-wax-seal.png",
+    "orange_wax_seal": "logos/methodz/orange-wax-seal.png",
+    "brand_seal_collection": "logos/methodz/brand-seal-collection.png"
+  },
+  "canadian_soft_water": {
+    "dark_logo": "logos/canadian-soft-water/dark-brand-logo.png",
+    "icon": "logos/canadian-soft-water/simple-icon.png"
+  },
+  "method_hvac": {
+    "main_logo": "logos/method-hvac/main-logo.png",
+    "chain_logo": "logos/method-hvac/chain-logo.png",
+    "franco_logo": "logos/method-hvac/franco-logo.png",
+    "franco_horizontal": "logos/method-hvac/franco-horizontal.png",
+    "franco_vertical": "logos/method-hvac/franco-vertical.png",
+    "partnership": "logos/method-hvac/partnership.png"
+  },
+  "method_media": {
+    "official_seal": "logos/method-media/official-seal.png"
+  },
+  "misc": {
+    "bob_gemini_icon": "logos/misc/bob-gemini-icon.png",
+    "methodz_main_reference": "logos/misc/methodz-main.jpg"
+  }
+}
