@@ -1,0 +1,9 @@
+{
+  "service": "Methodz Brand Assets API",
+  "status": "online",
+  "version": "1.0.0",
+  "manifest": "api/v1/manifest.json",
+  "schema": "api/v1/schema.json",
+  "generated": "2026-07-07",
+  "asset_count": 19
+}
