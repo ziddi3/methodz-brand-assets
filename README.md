@@ -148,3 +148,15 @@ Planned improvements:
 Assets remain the intellectual property of their respective Methodz companies.
 
 This repository is the canonical distribution point for approved branding.
+
+## API Freeze Notice
+
+Methodz Brand Asset API v1 is production ready and frozen for compatibility.
+
+Do not make breaking changes to api/v1/.
+
+See:
+
+API_FREEZE.md
+
+Breaking changes should be introduced in api/v2/.
