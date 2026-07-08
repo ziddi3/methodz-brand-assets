@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/schema.json",
+  "title": "Methodz Brand Assets API Manifest",
+  "type": "object",
+  "required": ["api", "assets"],
+  "properties": {
+    "api": {
+      "type": "object",
+      "required": ["name", "version", "base_url", "manifest_url", "schema_url"],
+      "properties": {
+        "name": { "type": "string" },
+        "version": { "type": "string" },
+        "base_url": { "type": "string", "format": "uri" },
+        "manifest_url": { "type": "string", "format": "uri" },
+        "schema_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": { "$ref": "#/$defs/asset" }
+      }
+    }
+  },
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "required": ["id", "name", "path", "endpoint", "type", "category", "approved", "version", "background", "transparent", "tags"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "path": { "type": "string" },
+        "endpoint": { "type": "string" },
+        "type": { "enum": ["png", "jpg", "jpeg", "svg", "webp"] },
+        "category": { "type": "string" },
+        "approved": { "type": "boolean" },
+        "version": { "type": "string" },
+        "background": { "enum": ["light", "dark", "mixed", "transparent"] },
+        "transparent": { "type": "boolean" },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

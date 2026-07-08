@@ -1,0 +1,19 @@
+{
+  "id": "method_hvac.franco_logo",
+  "name": "Franco Method HVAC Logo",
+  "path": "logos/method-hvac/franco-logo.png",
+  "endpoint": "api/v1/assets/method-hvac/franco-logo.json",
+  "type": "png",
+  "category": "partner-logo",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "mixed",
+  "transparent": false,
+  "tags": [
+    "method-hvac",
+    "franco",
+    "partner"
+  ],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/method-hvac/franco-logo.png",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json"
+}

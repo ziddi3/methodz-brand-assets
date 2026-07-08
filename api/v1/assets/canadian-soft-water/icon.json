@@ -1,0 +1,19 @@
+{
+  "id": "canadian_soft_water.icon",
+  "name": "Canadian Soft Water Simple Icon",
+  "path": "logos/canadian-soft-water/simple-icon.png",
+  "endpoint": "api/v1/assets/canadian-soft-water/icon.json",
+  "type": "png",
+  "category": "icon",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "dark",
+  "transparent": false,
+  "tags": [
+    "canadian-soft-water",
+    "icon",
+    "favicon"
+  ],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/canadian-soft-water/simple-icon.png",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json"
+}

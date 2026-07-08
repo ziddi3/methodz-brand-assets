@@ -1,0 +1,18 @@
+{
+  "id": "method_hvac.main_logo",
+  "name": "Method HVAC Main Logo",
+  "path": "logos/method-hvac/main-logo.png",
+  "endpoint": "api/v1/assets/method-hvac/main-logo.json",
+  "type": "png",
+  "category": "logo",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "mixed",
+  "transparent": false,
+  "tags": [
+    "method-hvac",
+    "logo"
+  ],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/method-hvac/main-logo.png",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json"
+}

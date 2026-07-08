@@ -1,36 +1,216 @@
 {
-  "repository": {
-    "name": "methodz-brand-assets",
+  "api": {
+    "name": "Methodz Brand Assets API",
     "version": "1.0.0",
-    "description": "Official Methodz ecosystem brand asset registry"
+    "base_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/",
+    "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json",
+    "schema_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/schema.json"
   },
-  "methodz": {
-    "main_logo": "logos/methodz/main-logo.png",
-    "main_logo_transparent": "logos/methodz/main-logo-transparent.png",
-    "trust_icon": "logos/methodz/trust-icon.png",
-    "stamp": "logos/methodz/stamp-of-approval.png",
-    "gold_trust_seal": "logos/methodz/gold-trust-seal.png",
-    "red_wax_seal": "logos/methodz/red-wax-seal.png",
-    "orange_wax_seal": "logos/methodz/orange-wax-seal.png",
-    "brand_seal_collection": "logos/methodz/brand-seal-collection.png"
-  },
-  "canadian_soft_water": {
-    "dark_logo": "logos/canadian-soft-water/dark-brand-logo.png",
-    "icon": "logos/canadian-soft-water/simple-icon.png"
-  },
-  "method_hvac": {
-    "main_logo": "logos/method-hvac/main-logo.png",
-    "chain_logo": "logos/method-hvac/chain-logo.png",
-    "franco_logo": "logos/method-hvac/franco-logo.png",
-    "franco_horizontal": "logos/method-hvac/franco-horizontal.png",
-    "franco_vertical": "logos/method-hvac/franco-vertical.png",
-    "partnership": "logos/method-hvac/partnership.png"
-  },
-  "method_media": {
-    "official_seal": "logos/method-media/official-seal.png"
-  },
-  "misc": {
-    "bob_gemini_icon": "logos/misc/bob-gemini-icon.png",
-    "methodz_main_reference": "logos/misc/methodz-main.jpg"
+  "assets": {
+    "methodz": {
+      "main_logo": {
+        "id": "methodz.main_logo",
+        "name": "Methodz Main Logo",
+        "path": "logos/methodz/main-logo.png",
+        "endpoint": "api/v1/assets/methodz/main-logo.json",
+        "type": "png",
+        "category": "logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["methodz", "main", "logo"]
+      },
+      "main_logo_transparent": {
+        "id": "methodz.main_logo_transparent",
+        "name": "Methodz Main Logo Transparent",
+        "path": "logos/methodz/main-logo-transparent.png",
+        "endpoint": "api/v1/assets/methodz/main-logo-transparent.json",
+        "type": "png",
+        "category": "logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "transparent",
+        "transparent": true,
+        "tags": ["methodz", "main", "logo", "transparent"]
+      },
+      "trust_icon": {
+        "id": "methodz.trust_icon",
+        "name": "Methodz Trust Icon",
+        "path": "logos/methodz/trust-icon.png",
+        "endpoint": "api/v1/assets/methodz/trust-icon.json",
+        "type": "png",
+        "category": "trust",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "dark",
+        "transparent": false,
+        "tags": ["methodz", "trust", "partner", "website"]
+      },
+      "stamp": {
+        "id": "methodz.stamp",
+        "name": "Methodz Stamp of Approval",
+        "path": "logos/methodz/stamp-of-approval.png",
+        "endpoint": "api/v1/assets/methodz/stamp-of-approval.json",
+        "type": "png",
+        "category": "stamp",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "dark",
+        "transparent": false,
+        "tags": ["methodz", "stamp", "approval", "seal"]
+      }
+    },
+    "canadian_soft_water": {
+      "dark_logo": {
+        "id": "canadian_soft_water.dark_logo",
+        "name": "Canadian Soft Water Dark Brand Logo",
+        "path": "logos/canadian-soft-water/dark-brand-logo.png",
+        "endpoint": "api/v1/assets/canadian-soft-water/dark-logo.json",
+        "type": "png",
+        "category": "logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "dark",
+        "transparent": false,
+        "tags": ["canadian-soft-water", "logo", "dark"]
+      },
+      "icon": {
+        "id": "canadian_soft_water.icon",
+        "name": "Canadian Soft Water Simple Icon",
+        "path": "logos/canadian-soft-water/simple-icon.png",
+        "endpoint": "api/v1/assets/canadian-soft-water/icon.json",
+        "type": "png",
+        "category": "icon",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "dark",
+        "transparent": false,
+        "tags": ["canadian-soft-water", "icon", "favicon"]
+      }
+    },
+    "method_hvac": {
+      "main_logo": {
+        "id": "method_hvac.main_logo",
+        "name": "Method HVAC Main Logo",
+        "path": "logos/method-hvac/main-logo.png",
+        "endpoint": "api/v1/assets/method-hvac/main-logo.json",
+        "type": "png",
+        "category": "logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["method-hvac", "logo"]
+      },
+      "chain_logo": {
+        "id": "method_hvac.chain_logo",
+        "name": "Method HVAC Chain Logo",
+        "path": "logos/method-hvac/chain-logo.png",
+        "endpoint": "api/v1/assets/method-hvac/chain-logo.json",
+        "type": "png",
+        "category": "logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["method-hvac", "chain", "logo"]
+      },
+      "franco_logo": {
+        "id": "method_hvac.franco_logo",
+        "name": "Franco Method HVAC Logo",
+        "path": "logos/method-hvac/franco-logo.png",
+        "endpoint": "api/v1/assets/method-hvac/franco-logo.json",
+        "type": "png",
+        "category": "partner-logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["method-hvac", "franco", "partner"]
+      },
+      "franco_horizontal": {
+        "id": "method_hvac.franco_horizontal",
+        "name": "Franco Method HVAC Horizontal",
+        "path": "logos/method-hvac/franco-horizontal.png",
+        "endpoint": "api/v1/assets/method-hvac/franco-horizontal.json",
+        "type": "png",
+        "category": "partner-logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["method-hvac", "franco", "horizontal"]
+      },
+      "franco_vertical": {
+        "id": "method_hvac.franco_vertical",
+        "name": "Franco Method HVAC Vertical",
+        "path": "logos/method-hvac/franco-vertical.png",
+        "endpoint": "api/v1/assets/method-hvac/franco-vertical.json",
+        "type": "png",
+        "category": "partner-logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["method-hvac", "franco", "vertical"]
+      },
+      "partnership": {
+        "id": "method_hvac.partnership",
+        "name": "Franco + Method HVAC Partnership",
+        "path": "logos/method-hvac/partnership.png",
+        "endpoint": "api/v1/assets/method-hvac/partnership.json",
+        "type": "png",
+        "category": "partnership",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["method-hvac", "franco", "partnership"]
+      }
+    },
+    "method_media": {
+      "official_seal": {
+        "id": "method_media.official_seal",
+        "name": "Method Media Official Seal",
+        "path": "logos/method-media/official-seal.png",
+        "endpoint": "api/v1/assets/method-media/official-seal.json",
+        "type": "png",
+        "category": "seal",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["method-media", "official", "seal"]
+      }
+    },
+    "misc": {
+      "bob_gemini_icon": {
+        "id": "misc.bob_gemini_icon",
+        "name": "Bob Gemini Icon",
+        "path": "logos/misc/bob-gemini-icon.png",
+        "endpoint": "api/v1/assets/misc/bob-gemini-icon.json",
+        "type": "png",
+        "category": "assistant-icon",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["bob", "gemini", "assistant"]
+      },
+      "methodz_main_reference": {
+        "id": "misc.methodz_main_reference",
+        "name": "Methodz Main Reference",
+        "path": "logos/misc/methodz-main.jpg",
+        "endpoint": "api/v1/assets/misc/methodz-main-reference.json",
+        "type": "jpg",
+        "category": "reference",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": ["methodz", "reference"]
+      }
+    }
   }
 }
