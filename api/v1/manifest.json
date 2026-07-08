@@ -19,7 +19,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["methodz", "main", "logo"]
+        "tags": [
+          "methodz",
+          "main",
+          "logo"
+        ]
       },
       "main_logo_transparent": {
         "id": "methodz.main_logo_transparent",
@@ -32,7 +36,12 @@
         "version": "1.0.0",
         "background": "transparent",
         "transparent": true,
-        "tags": ["methodz", "main", "logo", "transparent"]
+        "tags": [
+          "methodz",
+          "main",
+          "logo",
+          "transparent"
+        ]
       },
       "trust_icon": {
         "id": "methodz.trust_icon",
@@ -45,7 +54,12 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["methodz", "trust", "partner", "website"]
+        "tags": [
+          "methodz",
+          "trust",
+          "partner",
+          "website"
+        ]
       },
       "stamp": {
         "id": "methodz.stamp",
@@ -58,7 +72,84 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["methodz", "stamp", "approval", "seal"]
+        "tags": [
+          "methodz",
+          "stamp",
+          "approval",
+          "seal"
+        ]
+      },
+      "gold_trust_seal": {
+        "id": "methodz.gold_trust_seal",
+        "name": "Methodz Gold Trust Seal",
+        "path": "logos/methodz/gold-trust-seal.png",
+        "endpoint": "api/v1/assets/methodz/gold-trust-seal.json",
+        "type": "png",
+        "category": "trust-seal",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": [
+          "methodz",
+          "gold",
+          "trust",
+          "seal"
+        ]
+      },
+      "red_wax_seal": {
+        "id": "methodz.red_wax_seal",
+        "name": "Methodz Red Wax Seal",
+        "path": "logos/methodz/red-wax-seal.png",
+        "endpoint": "api/v1/assets/methodz/red-wax-seal.json",
+        "type": "png",
+        "category": "wax-seal",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "dark",
+        "transparent": false,
+        "tags": [
+          "methodz",
+          "red",
+          "wax",
+          "seal"
+        ]
+      },
+      "orange_wax_seal": {
+        "id": "methodz.orange_wax_seal",
+        "name": "Methodz Orange Wax Seal",
+        "path": "logos/methodz/orange-wax-seal.png",
+        "endpoint": "api/v1/assets/methodz/orange-wax-seal.json",
+        "type": "png",
+        "category": "wax-seal",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "dark",
+        "transparent": false,
+        "tags": [
+          "methodz",
+          "orange",
+          "wax",
+          "seal"
+        ]
+      },
+      "brand_seal_collection": {
+        "id": "methodz.brand_seal_collection",
+        "name": "Methodz Brand Seal Collection",
+        "path": "logos/methodz/brand-seal-collection.png",
+        "endpoint": "api/v1/assets/methodz/brand-seal-collection.json",
+        "type": "png",
+        "category": "collection",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": [
+          "methodz",
+          "brand",
+          "seal",
+          "collection"
+        ]
       }
     },
     "canadian_soft_water": {
@@ -73,7 +164,11 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["canadian-soft-water", "logo", "dark"]
+        "tags": [
+          "canadian-soft-water",
+          "logo",
+          "dark"
+        ]
       },
       "icon": {
         "id": "canadian_soft_water.icon",
@@ -86,7 +181,11 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["canadian-soft-water", "icon", "favicon"]
+        "tags": [
+          "canadian-soft-water",
+          "icon",
+          "favicon"
+        ]
       }
     },
     "method_hvac": {
@@ -101,7 +200,10 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "logo"]
+        "tags": [
+          "method-hvac",
+          "logo"
+        ]
       },
       "chain_logo": {
         "id": "method_hvac.chain_logo",
@@ -114,7 +216,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "chain", "logo"]
+        "tags": [
+          "method-hvac",
+          "chain",
+          "logo"
+        ]
       },
       "franco_logo": {
         "id": "method_hvac.franco_logo",
@@ -127,7 +233,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "franco", "partner"]
+        "tags": [
+          "method-hvac",
+          "franco",
+          "partner"
+        ]
       },
       "franco_horizontal": {
         "id": "method_hvac.franco_horizontal",
@@ -140,7 +250,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "franco", "horizontal"]
+        "tags": [
+          "method-hvac",
+          "franco",
+          "horizontal"
+        ]
       },
       "franco_vertical": {
         "id": "method_hvac.franco_vertical",
@@ -153,7 +267,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "franco", "vertical"]
+        "tags": [
+          "method-hvac",
+          "franco",
+          "vertical"
+        ]
       },
       "partnership": {
         "id": "method_hvac.partnership",
@@ -166,7 +284,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "franco", "partnership"]
+        "tags": [
+          "method-hvac",
+          "franco",
+          "partnership"
+        ]
       }
     },
     "method_media": {
@@ -181,7 +303,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-media", "official", "seal"]
+        "tags": [
+          "method-media",
+          "official",
+          "seal"
+        ]
       }
     },
     "misc": {
@@ -196,7 +322,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["bob", "gemini", "assistant"]
+        "tags": [
+          "bob",
+          "gemini",
+          "assistant"
+        ]
       },
       "methodz_main_reference": {
         "id": "misc.methodz_main_reference",
@@ -209,7 +339,10 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["methodz", "reference"]
+        "tags": [
+          "methodz",
+          "reference"
+        ]
       }
     }
   }

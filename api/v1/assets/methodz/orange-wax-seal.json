@@ -1,0 +1,20 @@
+{
+  "id": "methodz.orange_wax_seal",
+  "name": "Methodz Orange Wax Seal",
+  "path": "logos/methodz/orange-wax-seal.png",
+  "endpoint": "api/v1/assets/methodz/orange-wax-seal.json",
+  "type": "png",
+  "category": "wax-seal",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "dark",
+  "transparent": false,
+  "tags": [
+    "methodz",
+    "orange",
+    "wax",
+    "seal"
+  ],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/methodz/orange-wax-seal.png",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json"
+}

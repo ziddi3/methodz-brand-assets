@@ -1,0 +1,20 @@
+{
+  "id": "methodz.brand_seal_collection",
+  "name": "Methodz Brand Seal Collection",
+  "path": "logos/methodz/brand-seal-collection.png",
+  "endpoint": "api/v1/assets/methodz/brand-seal-collection.json",
+  "type": "png",
+  "category": "collection",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "mixed",
+  "transparent": false,
+  "tags": [
+    "methodz",
+    "brand",
+    "seal",
+    "collection"
+  ],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/methodz/brand-seal-collection.png",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json"
+}

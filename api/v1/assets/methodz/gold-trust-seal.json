@@ -1,0 +1,20 @@
+{
+  "id": "methodz.gold_trust_seal",
+  "name": "Methodz Gold Trust Seal",
+  "path": "logos/methodz/gold-trust-seal.png",
+  "endpoint": "api/v1/assets/methodz/gold-trust-seal.json",
+  "type": "png",
+  "category": "trust-seal",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "mixed",
+  "transparent": false,
+  "tags": [
+    "methodz",
+    "gold",
+    "trust",
+    "seal"
+  ],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/methodz/gold-trust-seal.png",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json"
+}
