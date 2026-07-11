@@ -343,6 +343,25 @@
           "methodz",
           "reference"
         ]
+      },
+      "bobs_logo_canon": {
+        "id": "misc.bobs_logo_canon",
+        "name": "Bob's Canon Logo",
+        "path": "logos/misc/bobs-logo-canon.png",
+        "endpoint": "api/v1/assets/misc/bobs-logo-canon.json",
+        "type": "png",
+        "category": "assistant-icon",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "mixed",
+        "transparent": false,
+        "tags": [
+          "bob",
+          "methodz",
+          "assistant",
+          "canon",
+          "logo"
+        ]
       }
     }
   }

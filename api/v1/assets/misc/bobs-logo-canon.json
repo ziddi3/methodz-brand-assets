@@ -1,0 +1,21 @@
+{
+  "id": "misc.bobs_logo_canon",
+  "name": "Bob's Canon Logo",
+  "path": "logos/misc/bobs-logo-canon.png",
+  "endpoint": "api/v1/assets/misc/bobs-logo-canon.json",
+  "type": "png",
+  "category": "assistant-icon",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "mixed",
+  "transparent": false,
+  "tags": [
+    "bob",
+    "methodz",
+    "assistant",
+    "canon",
+    "logo"
+  ],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/misc/bobs-logo-canon.png",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json"
+}
