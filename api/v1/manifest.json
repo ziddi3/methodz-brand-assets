@@ -362,6 +362,26 @@
           "canon",
           "logo"
         ]
+      },
+      "bob_field_capture": {
+        "id": "misc.bob_field_capture",
+        "name": "Bob's Field Capture",
+        "path": "logos/misc/bob-field-capture.png",
+        "endpoint": "api/v1/assets/misc/bob-field-capture.json",
+        "type": "png",
+        "category": "assistant-branch-logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "dark",
+        "transparent": false,
+        "tags": [
+          "bob",
+          "field-capture",
+          "methodz",
+          "assistant",
+          "branch",
+          "hvac"
+        ]
       }
     }
   }
