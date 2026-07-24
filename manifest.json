@@ -16,7 +16,8 @@
   },
   "canadian_soft_water": {
     "dark_logo": "logos/canadian-soft-water/dark-brand-logo.png",
-    "icon": "logos/canadian-soft-water/simple-icon.png"
+    "icon": "logos/canadian-soft-water/simple-icon.png",
+    "csw_logo": "logos/canadian-soft-water/csw-logo.png"
   },
   "method_hvac": {
     "main_logo": "logos/method-hvac/main-logo.png",

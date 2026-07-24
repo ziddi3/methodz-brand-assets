@@ -1,0 +1,18 @@
+{
+  "id": "canadian_soft_water.csw_logo",
+  "name": "Canadian Soft Water Logo",
+  "path": "logos/canadian-soft-water/csw-logo.png",
+  "endpoint": "api/v1/assets/canadian-soft-water/csw-logo.json",
+  "type": "png",
+  "category": "logo",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "mixed",
+  "transparent": false,
+  "tags": [
+    "canadian-soft-water",
+    "csw",
+    "logo",
+    "official"
+  ]
+}
