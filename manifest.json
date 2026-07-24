@@ -32,5 +32,8 @@
   "misc": {
     "bob_gemini_icon": "logos/misc/bob-gemini-icon.png",
     "methodz_main_reference": "logos/misc/methodz-main.jpg"
+  },
+  "assets": {
+    "bobs_field": "logos/misc/bobs-field.png"
   }
 }

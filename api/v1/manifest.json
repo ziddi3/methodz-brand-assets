@@ -382,6 +382,28 @@
           "branch",
           "hvac"
         ]
+      },
+      "bobs_field": {
+        "id": "misc.bobs_field",
+        "name": "Bob's Field",
+        "path": "logos/misc/bobs-field.png",
+        "endpoint": "api/v1/assets/misc/bobs-field.json",
+        "type": "png",
+        "category": "assistant-branch-logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "dark",
+        "transparent": false,
+        "target_url": "https://conquering.methodz.ca/",
+        "tags": [
+          "bob",
+          "bobs-field",
+          "methodz",
+          "assistant",
+          "tool",
+          "contract-builder",
+          "conquering"
+        ]
       }
     }
   }
