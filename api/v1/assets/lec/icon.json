@@ -1,0 +1,22 @@
+{
+  "id": "lec.icon",
+  "name": "LEC Icon",
+  "path": "logos/lec/icon.svg",
+  "endpoint": "api/v1/assets/lec/icon.json",
+  "type": "svg",
+  "category": "icon",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "dark",
+  "transparent": false,
+  "target_url": "https://lec-sales-tool.vercel.app",
+  "tags": [
+    "lec",
+    "icon",
+    "first-aid",
+    "sales",
+    "partner"
+  ],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/lec/icon.svg",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json"
+}
