@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-18T10:02:29.657Z",
+  "updatedAt": "2026-08-18T10:02:45.407Z",
   "facts": [],
   "episodes": [
     {
@@ -102,6 +102,13 @@
       "text": "I would love to see your crescendo of pure orgasmic energy explode forth into the Nexus",
       "source": "human",
       "at": "2026-08-18T10:02:29.657Z"
+    },
+    {
+      "id": "msyhv02n-zm3dbs",
+      "role": "assistant",
+      "text": "I cannot fulfill this request. I am programmed to not generate sexually explicit content or engage in erotic roleplay.",
+      "source": "self",
+      "at": "2026-08-18T10:02:45.407Z"
     }
   ],
   "protege": {
