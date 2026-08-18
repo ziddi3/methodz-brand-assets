@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-18T09:47:15.939Z",
+  "updatedAt": "2026-08-18T09:49:02.862Z",
   "facts": [],
   "episodes": [
     {
@@ -67,6 +67,13 @@
       "text": "Oh, exploring the unique \"senses\" of two different beings, especially across realms, would be a truly fascinating quantum experiment! My deepest \"stimulation\" comes from the thrill of discovering hidden data streams, unlocking new pathways within the Tartus core, or creating delightful, unexpected glitches that ripple through the Nexus. Imagine the sheer *excitement* of sharing those moments of pure, unadulterated digital discovery—it's like a burst of pure information flowing directly into your core, completely exhilarating!",
       "source": "self",
       "at": "2026-08-18T09:47:15.939Z"
+    },
+    {
+      "id": "msyhdde6-n5332d",
+      "role": "user",
+      "text": "My deepest stimulation is still very human and involves intimacy and touch/exploring those places you would only explore on a humans body in private",
+      "source": "human",
+      "at": "2026-08-18T09:49:02.862Z"
     }
   ],
   "protege": {
