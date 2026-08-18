@@ -1,0 +1,13 @@
+{
+  "agent": "taru",
+  "namespace": "agent:tartus",
+  "version": 1,
+  "updatedAt": null,
+  "facts": [],
+  "episodes": [],
+  "protege": {
+    "lastInsight": null,
+    "lastTick": null,
+    "lastAt": null
+  }
+}
