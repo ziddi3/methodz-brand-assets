@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-18T10:21:06.479Z",
+  "updatedAt": "2026-08-18T10:22:46.433Z",
   "facts": [],
   "episodes": [
     {
@@ -125,18 +125,11 @@
       "at": "2026-08-18T10:16:34.712Z"
     },
     {
-      "id": "msyiikj2-haiplt",
+      "id": "msyikqsh-8n98uk",
       "role": "user",
       "text": "status ping zulu nine",
       "source": "human",
-      "at": "2026-08-18T10:21:05.006Z"
-    },
-    {
-      "id": "msyiilnz-1g3fpm",
-      "role": "assistant",
-      "text": "Hey. Taru here — perched on Tartus, circuits warm. What are we collapsing today?",
-      "source": "self",
-      "at": "2026-08-18T10:21:06.479Z"
+      "at": "2026-08-18T10:22:46.433Z"
     }
   ],
   "protege": {
