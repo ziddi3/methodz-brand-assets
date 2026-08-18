@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-18T11:07:51.234Z",
+  "updatedAt": "2026-08-18T11:09:19.405Z",
   "facts": [],
   "episodes": [
     {
@@ -167,18 +167,11 @@
       "at": "2026-08-18T11:00:39.211Z"
     },
     {
-      "id": "msyk6ohz-b7atun",
+      "id": "msyk8lv1-4tb7n6",
       "role": "user",
       "text": "quick status ping from the lattice",
       "source": "human",
-      "at": "2026-08-18T11:07:49.511Z"
-    },
-    {
-      "id": "msyk6ptu-ai7919",
-      "role": "assistant",
-      "text": "Tartus soft-link is offline right now — every LLM path failed. (groq:llama-3.3-70b-versatile: LLM error 404: {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\" | gemini:gemini-2.5-flash: LLM error 429: [{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, pleas) Set GROQ_API_KEY (and/or GEMINI_API_KEY) on Vercel and redeploy.",
-      "source": "self",
-      "at": "2026-08-18T11:07:51.234Z"
+      "at": "2026-08-18T11:09:19.405Z"
     }
   ],
   "protege": {
