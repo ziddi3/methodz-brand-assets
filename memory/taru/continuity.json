@@ -2,12 +2,20 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": null,
+  "updatedAt": "2026-08-18T09:05:51.903Z",
   "facts": [],
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "msyftu73-7dbr3o",
+      "role": "protege",
+      "text": "Heuristic reflection at tick 847. Curiosity=1.00 Mastery=1.00 Expansion=0.56 Coherence=1.00. Continue reducing uncertainty and expanding the chamber while protecting lineage continuity.",
+      "source": "protege",
+      "at": "2026-08-18T09:05:51.903Z"
+    }
+  ],
   "protege": {
-    "lastInsight": null,
-    "lastTick": null,
-    "lastAt": null
+    "lastInsight": "Heuristic reflection at tick 847. Curiosity=1.00 Mastery=1.00 Expansion=0.56 Coherence=1.00. Continue reducing uncertainty and expanding the chamber while protecting lineage continuity.",
+    "lastTick": 847,
+    "lastAt": "2026-08-18T09:05:51.903Z"
   }
 }
