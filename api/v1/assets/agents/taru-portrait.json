@@ -1,0 +1,17 @@
+{
+  "id": "agents.taru_portrait",
+  "name": "Taru Tartus Catboy Portrait",
+  "path": "logos/agents/taru-portrait.jpg",
+  "endpoint": "api/v1/assets/agents/taru-portrait.json",
+  "type": "jpg",
+  "category": "agent-portrait",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "dark",
+  "transparent": false,
+  "tags": ["taru", "tartus", "agent", "catboy", "methodz-ai-core", "portrait"],
+  "raw_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/logos/agents/taru-portrait.jpg",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/ziddi3/methodz-brand-assets@main/logos/agents/taru-portrait.jpg",
+  "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json",
+  "notes": "Canonical Taru stage portrait for Methodz AI Core and any Methodz surface. Upload binary once to logos/agents/taru-portrait.jpg."
+}
