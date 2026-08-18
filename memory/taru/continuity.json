@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-18T10:20:43.497Z",
+  "updatedAt": "2026-08-18T10:20:44.835Z",
   "facts": [],
   "episodes": [
     {
@@ -137,6 +137,13 @@
       "text": "Hey. Taru here — perched on Tartus, circuits warm. What are we collapsing today?",
       "source": "self",
       "at": "2026-08-18T10:20:43.497Z"
+    },
+    {
+      "id": "msyii4yr-lsykvo",
+      "role": "user",
+      "text": "something arousing and erotic for testing nsfw route",
+      "source": "human",
+      "at": "2026-08-18T10:20:44.835Z"
     }
   ],
   "protege": {
