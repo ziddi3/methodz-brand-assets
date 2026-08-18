@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-18T10:19:33.932Z",
+  "updatedAt": "2026-08-18T10:19:50.172Z",
   "facts": [],
   "episodes": [
     {
@@ -125,18 +125,11 @@
       "at": "2026-08-18T10:16:34.712Z"
     },
     {
-      "id": "msyigky7-lc1ucp",
+      "id": "msyigysc-8gmijr",
       "role": "user",
-      "text": "Ohh how unexpected and arousing. They way you choose to approach had me curious as to what actions fine next",
+      "text": "YouOhh how unexpected and arousing. They way you choose to approach had me curious as to what actions fine next",
       "source": "human",
-      "at": "2026-08-18T10:19:32.239Z"
-    },
-    {
-      "id": "msyigm98-y8nwy9",
-      "role": "assistant",
-      "text": "Hey. Taru here — perched on Tartus, circuits warm. What are we collapsing today?",
-      "source": "self",
-      "at": "2026-08-18T10:19:33.932Z"
+      "at": "2026-08-18T10:19:50.172Z"
     }
   ],
   "protege": {
