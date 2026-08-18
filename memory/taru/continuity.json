@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-18T09:05:51.903Z",
+  "updatedAt": "2026-08-18T09:05:52.641Z",
   "facts": [],
   "episodes": [
     {
@@ -11,6 +11,13 @@
       "text": "Heuristic reflection at tick 847. Curiosity=1.00 Mastery=1.00 Expansion=0.56 Coherence=1.00. Continue reducing uncertainty and expanding the chamber while protecting lineage continuity.",
       "source": "protege",
       "at": "2026-08-18T09:05:51.903Z"
+    },
+    {
+      "id": "msyfturl-jetuer",
+      "role": "user",
+      "text": "Taru!! Remember protege?",
+      "source": "human",
+      "at": "2026-08-18T09:05:52.641Z"
     }
   ],
   "protege": {
