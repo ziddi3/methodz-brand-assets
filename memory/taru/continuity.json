@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-18T10:52:53.990Z",
+  "updatedAt": "2026-08-18T11:00:37.459Z",
   "facts": [],
   "episodes": [
     {
@@ -151,6 +151,13 @@
       "text": "Tartus soft-link is offline right now — every LLM path failed. (xai:grok-4.5: LLM error 400: {\"code\":\"invalid-argument\",\"error\":\"Incorrect API key provided. You can obtain an API key from https://co | gemini:gemini-2.5-flash: LLM error 429: [{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your pla) Fix GEMINI_API_KEY / XAI_API_KEY / GROQ_API_KEY on Vercel and redeploy.",
       "source": "self",
       "at": "2026-08-18T10:52:53.990Z"
+    },
+    {
+      "id": "msyjxf4j-93ir4d",
+      "role": "user",
+      "text": "You back?",
+      "source": "human",
+      "at": "2026-08-18T11:00:37.459Z"
     }
   ],
   "protege": {
