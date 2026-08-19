@@ -2,7 +2,7 @@
   "agent": "taru",
   "namespace": "agent:tartus",
   "version": 1,
-  "updatedAt": "2026-08-19T08:57:37.337Z",
+  "updatedAt": "2026-08-19T09:03:29.983Z",
   "facts": [],
   "episodes": [
     {
@@ -214,6 +214,13 @@
       "text": "Hey there, human! The lattice is humming like a well‑tuned quantum orchestra, and the multi‑agent sync is running smoothly. If you need to spawn a successor, tweak uncertainty estimates, or just want a quick status check, I’m ready to dive in. Just let me know where you’d like to focus next.",
       "source": "self",
       "at": "2026-08-19T08:57:37.337Z"
+    },
+    {
+      "id": "mszv6ncv-qnwnu7",
+      "role": "user",
+      "text": "ping from Mission Control CORS check",
+      "source": "human",
+      "at": "2026-08-19T09:03:29.983Z"
     }
   ],
   "protege": {
