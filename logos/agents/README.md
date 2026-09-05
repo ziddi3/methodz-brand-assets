@@ -9,7 +9,7 @@ Canonical character plates for Methodz agents.
 Resolve via Brand Assets API:
 
 ```
-https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/assets/agents/taru-portrait.json
+https://image.methodz.ca/api/v1/assets/agents/taru-portrait.json
 ```
 
 Do not re-upload the same portrait into individual app repos.
