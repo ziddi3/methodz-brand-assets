@@ -2,9 +2,9 @@
   "api": {
     "name": "Methodz Brand Assets API",
     "version": "1.0.0",
-    "base_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/",
-    "manifest_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json",
-    "schema_url": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/schema.json"
+    "base_url": "https://image.methodz.ca/",
+    "manifest_url": "https://image.methodz.ca/api/v1/manifest.json",
+    "schema_url": "https://image.methodz.ca/api/v1/schema.json"
   },
   "assets": {
     "methodz": {
