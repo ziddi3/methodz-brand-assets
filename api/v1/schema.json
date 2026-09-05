@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/schema.json",
+  "$id": "https://image.methodz.ca/api/v1/schema.json",
   "title": "Methodz Brand Assets API Manifest",
   "type": "object",
   "required": ["api", "assets"],
