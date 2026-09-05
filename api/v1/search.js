@@ -1,5 +1,5 @@
-const MANIFEST_URL = 'https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/api/v1/manifest.json';
-const RAW_BASE_URL = 'https://raw.githubusercontent.com/ziddi3/methodz-brand-assets/main/';
+const MANIFEST_URL = 'https://image.methodz.ca/api/v1/manifest.json';
+const RAW_BASE_URL = 'https://image.methodz.ca/';
 
 export async function loadManifest() {
   const response = await fetch(MANIFEST_URL);
