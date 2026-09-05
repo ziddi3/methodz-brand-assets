@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Methodz Brand Assets</title>
+  <meta name="description" content="Browsable gallery of approved Methodz ecosystem brand assets." />
+  <style>
+    :root{color-scheme:dark;background:#06090d;color:#f4f7fb;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at top,#17202b 0,#090d12 42%,#05070a 100%);padding:28px}
+    main{width:min(1180px,100%);margin:auto}.top{display:flex;gap:18px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:28px}.eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#8798aa}.top h1{margin:.3rem 0 .4rem;font-size:clamp(2rem,7vw,4.6rem);letter-spacing:-.05em}.top p{max-width:720px;color:#aebbc8;line-height:1.6}.actions{display:flex;gap:10px;flex-wrap:wrap}.btn{display:inline-block;padding:10px 14px;border:1px solid #34404d;border-radius:10px;text-decoration:none;color:#eef4fb;background:#0d1218}.btn:hover{border-color:#718397;background:#121a22}.status{margin:12px 0 22px;color:#9fb0c2}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}.card{border:1px solid #26313d;border-radius:16px;background:rgba(11,16,22,.92);overflow:hidden}.preview{height:220px;display:grid;place-items:center;padding:18px;background:linear-gradient(145deg,#101720,#090d12)}.preview img{max-width:100%;max-height:100%;object-fit:contain}.meta{padding:15px}.meta strong{display:block;font-size:1rem;margin-bottom:5px}.meta small{display:block;color:#8fa0b2;overflow-wrap:anywhere;line-height:1.45}.links{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}.links a{font-size:.8rem;color:#dbe8f6;text-decoration:none;border:1px solid #2d3946;border-radius:8px;padding:6px 8px}.empty{padding:26px;border:1px dashed #384553;border-radius:14px;color:#9badbf}footer{margin:32px 0 8px;color:#6f7f8f;font-size:.84rem}
+  </style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <div>
+      <div class="eyebrow">Methodz Brand Assets API v1</div>
+      <h1>Brand Assets</h1>
+      <p>Approved Methodz ecosystem logos, seals, partner marks, icons, portraits, and other canonical visual assets. This gallery is generated from the live API manifest.</p>
+    </div>
+    <div class="actions">
+      <a class="btn" href="/">API Home</a>
+      <a class="btn" href="/api/v1/manifest.json">Manifest</a>
+    </div>
+  </div>
+  <div id="status" class="status">Loading approved assets…</div>
+  <div id="grid" class="grid"></div>
+  <footer>image.methodz.ca · Canonical Methodz brand-image domain</footer>
+</main>
+<script>
+(async()=>{
+  const grid=document.getElementById('grid');
+  const status=document.getElementById('status');
+  try{
+    const res=await fetch('/api/v1/manifest.json',{cache:'no-store'});
+    if(!res.ok) throw new Error(`Manifest returned ${res.status}`);
+    const manifest=await res.json();
+    const items=[];
+    for(const [group,assets] of Object.entries(manifest.assets||{})){
+      for(const [key,asset] of Object.entries(assets||{})){
+        if(asset && asset.approved!==false && asset.path) items.push({group,key,...asset});
+      }
+    }
+    items.sort((a,b)=>`${a.group}.${a.name}`.localeCompare(`${b.group}.${b.name}`));
+    status.textContent=`${items.length} approved assets`;
+    if(!items.length){ grid.innerHTML='<div class="empty">No approved assets are currently registered.</div>'; return; }
+    grid.innerHTML=items.map(asset=>{
+      const src='/' + String(asset.path).replace(/^\/+/, '');
+      const endpoint=asset.endpoint ? '/' + String(asset.endpoint).replace(/^\/+/, '') : '';
+      const title=asset.name||asset.key;
+      return `<article class="card">
+        <a class="preview" href="${src}" target="_blank" rel="noreferrer"><img src="${src}" alt="${escapeHtml(title)}" loading="lazy" /></a>
+        <div class="meta">
+          <strong>${escapeHtml(title)}</strong>
+          <small>${escapeHtml(asset.group)} · ${escapeHtml(asset.category||asset.type||'asset')}</small>
+          <small>${escapeHtml(asset.path)}</small>
+          <div class="links"><a href="${src}" target="_blank" rel="noreferrer">Open image</a>${endpoint?`<a href="${endpoint}" target="_blank" rel="noreferrer">Metadata</a>`:''}</div>
+        </div>
+      </article>`;
+    }).join('');
+  }catch(err){
+    status.textContent='Gallery unavailable';
+    grid.innerHTML=`<div class="empty">Could not load the Brand Assets manifest: ${escapeHtml(err.message)}</div>`;
+  }
+  function escapeHtml(value){return String(value??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
+})();
+</script>
+</body>
+</html>
