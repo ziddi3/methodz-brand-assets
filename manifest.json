@@ -27,8 +27,9 @@
     "franco_vertical": "logos/method-hvac/franco-vertical.png",
     "partnership": "logos/method-hvac/partnership.png"
   },
-  "method_media": {
-    "official_seal": "logos/method-media/official-seal.png"
+  "method_ink": {
+    "red_seal": "logos/method-ink/red-seal.png",
+    "geometric_m": "logos/method-ink/geometric-m.png"
   },
   "misc": {
     "bob_gemini_icon": "logos/misc/bob-gemini-icon.png",
