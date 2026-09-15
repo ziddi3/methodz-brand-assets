@@ -1,6 +1,6 @@
 {
   "id": "method_hvac.franco_logo",
-  "name": "Franco Method HVAC Logo",
+  "name": "Methodz Ink",
   "path": "logos/method-hvac/franco-logo.png",
   "endpoint": "api/v1/assets/method-hvac/franco-logo.json",
   "type": "png",
@@ -12,7 +12,9 @@
   "tags": [
     "method-hvac",
     "franco",
-    "partner"
+    "partner",
+    "method-ink",
+    "wax-seal"
   ],
   "raw_url": "https://image.methodz.ca/logos/method-hvac/franco-logo.png",
   "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"

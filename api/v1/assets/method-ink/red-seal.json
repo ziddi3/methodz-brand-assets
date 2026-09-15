@@ -1,0 +1,21 @@
+{
+  "id": "method_ink.red_seal",
+  "name": "Methodz Ink",
+  "path": "logos/method-ink/red-seal.png",
+  "endpoint": "api/v1/assets/method-ink/red-seal.json",
+  "type": "png",
+  "category": "wax-seal",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "dark",
+  "transparent": false,
+  "tags": [
+    "method-ink",
+    "franco",
+    "red",
+    "wax",
+    "seal"
+  ],
+  "raw_url": "https://image.methodz.ca/logos/method-ink/red-seal.png",
+  "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"
+}

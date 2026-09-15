@@ -41,6 +41,10 @@ logos/method-hvac/
 logos/method-media/
 - official-seal.png
 
+logos/method-ink/
+- red-seal.png
+- geometric-m.png
+
 logos/misc/
 - bob-gemini-icon.png
 - methodz-main.jpg

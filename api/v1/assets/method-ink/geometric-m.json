@@ -1,0 +1,21 @@
+{
+  "id": "method_ink.geometric_m",
+  "name": "Methodz Ink Geometric M",
+  "path": "logos/method-ink/geometric-m.png",
+  "endpoint": "api/v1/assets/method-ink/geometric-m.json",
+  "type": "png",
+  "category": "mark",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "dark",
+  "transparent": false,
+  "tags": [
+    "method-ink",
+    "franco",
+    "geometric",
+    "m",
+    "mark"
+  ],
+  "raw_url": "https://image.methodz.ca/logos/method-ink/geometric-m.png",
+  "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"
+}
