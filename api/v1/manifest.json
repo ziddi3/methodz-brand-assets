@@ -311,25 +311,6 @@
         ]
       }
     },
-    "method_media": {
-      "official_seal": {
-        "id": "method_media.official_seal",
-        "name": "Method Media Official Seal",
-        "path": "logos/method-media/official-seal.png",
-        "endpoint": "api/v1/assets/method-media/official-seal.json",
-        "type": "png",
-        "category": "seal",
-        "approved": true,
-        "version": "1.0.0",
-        "background": "mixed",
-        "transparent": false,
-        "tags": [
-          "method-media",
-          "official",
-          "seal"
-        ]
-      }
-    },
     "method_ink": {
       "red_seal": {
         "id": "method_ink.red_seal",

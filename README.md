@@ -38,9 +38,6 @@ logos/method-hvac/
 - franco-vertical.png
 - partnership.png
 
-logos/method-media/
-- official-seal.png
-
 logos/method-ink/
 - red-seal.png
 - geometric-m.png
