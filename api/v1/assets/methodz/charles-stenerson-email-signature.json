@@ -1,0 +1,25 @@
+{
+  "id": "methodz.charles_stenerson_email_signature",
+  "name": "Charles Stenerson Email Signature",
+  "path": "logos/methodz/charles-stenerson-email-signature.jpg",
+  "endpoint": "api/v1/assets/methodz/charles-stenerson-email-signature.json",
+  "type": "jpg",
+  "category": "email-signature",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "dark",
+  "transparent": false,
+  "width": 1200,
+  "height": 498,
+  "display_width": 600,
+  "tags": [
+    "methodz",
+    "email",
+    "signature",
+    "charles-stenerson",
+    "method-hvac",
+    "method-hub"
+  ],
+  "raw_url": "https://image.methodz.ca/logos/methodz/charles-stenerson-email-signature.jpg",
+  "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"
+}
