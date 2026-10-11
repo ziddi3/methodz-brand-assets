@@ -37,5 +37,13 @@
   },
   "assets": {
     "bobs_field": "logos/misc/bobs-field.png"
+  },
+  "bircham": {
+    "logo": "logos/bircham/logo.png",
+    "emblem": "logos/bircham/emblem.png",
+    "banner": "logos/bircham/banner.png"
+  },
+  "lec": {
+    "seal": "logos/lec/seal.png"
   }
 }

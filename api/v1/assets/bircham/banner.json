@@ -1,0 +1,27 @@
+{
+  "id": "bircham.banner",
+  "name": "Bircham Elk & Antler co. Storefront Banner",
+  "path": "logos/bircham/banner.png",
+  "endpoint": "api/v1/assets/bircham/banner.json",
+  "type": "png",
+  "category": "banner",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "transparent",
+  "transparent": true,
+  "target_url": "https://elk-treats.methodz.ca",
+  "tags": [
+    "bircham",
+    "elk",
+    "antler",
+    "banner",
+    "storefront",
+    "partner",
+    "transparent"
+  ],
+  "webp_path": "logos/bircham/banner.webp",
+  "brand_name": "Bircham Elk & Antler co.",
+  "raw_url": "https://image.methodz.ca/logos/bircham/banner.png",
+  "webp_url": "https://image.methodz.ca/logos/bircham/banner.webp",
+  "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "bircham.logo",
+  "name": "Bircham Elk & Antler co. Logo",
+  "path": "logos/bircham/logo.png",
+  "endpoint": "api/v1/assets/bircham/logo.json",
+  "type": "png",
+  "category": "logo",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "transparent",
+  "transparent": true,
+  "target_url": "https://elk-treats.methodz.ca",
+  "tags": [
+    "bircham",
+    "elk",
+    "antler",
+    "logo",
+    "wordmark",
+    "partner",
+    "transparent"
+  ],
+  "webp_path": "logos/bircham/logo.webp",
+  "brand_name": "Bircham Elk & Antler co.",
+  "raw_url": "https://image.methodz.ca/logos/bircham/logo.png",
+  "webp_url": "https://image.methodz.ca/logos/bircham/logo.webp",
+  "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"
+}

@@ -19,7 +19,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["methodz", "main", "logo"]
+        "tags": [
+          "methodz",
+          "main",
+          "logo"
+        ]
       },
       "main_logo_transparent": {
         "id": "methodz.main_logo_transparent",
@@ -32,7 +36,12 @@
         "version": "1.0.0",
         "background": "transparent",
         "transparent": true,
-        "tags": ["methodz", "main", "logo", "transparent"]
+        "tags": [
+          "methodz",
+          "main",
+          "logo",
+          "transparent"
+        ]
       },
       "trust_icon": {
         "id": "methodz.trust_icon",
@@ -45,7 +54,12 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["methodz", "trust", "partner", "website"]
+        "tags": [
+          "methodz",
+          "trust",
+          "partner",
+          "website"
+        ]
       },
       "stamp": {
         "id": "methodz.stamp",
@@ -58,7 +72,12 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["methodz", "stamp", "approval", "seal"]
+        "tags": [
+          "methodz",
+          "stamp",
+          "approval",
+          "seal"
+        ]
       },
       "gold_trust_seal": {
         "id": "methodz.gold_trust_seal",
@@ -71,7 +90,12 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["methodz", "gold", "trust", "seal"]
+        "tags": [
+          "methodz",
+          "gold",
+          "trust",
+          "seal"
+        ]
       },
       "red_wax_seal": {
         "id": "methodz.red_wax_seal",
@@ -84,7 +108,12 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["methodz", "red", "wax", "seal"]
+        "tags": [
+          "methodz",
+          "red",
+          "wax",
+          "seal"
+        ]
       },
       "orange_wax_seal": {
         "id": "methodz.orange_wax_seal",
@@ -97,7 +126,12 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["methodz", "orange", "wax", "seal"]
+        "tags": [
+          "methodz",
+          "orange",
+          "wax",
+          "seal"
+        ]
       },
       "brand_seal_collection": {
         "id": "methodz.brand_seal_collection",
@@ -110,7 +144,12 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["methodz", "brand", "seal", "collection"]
+        "tags": [
+          "methodz",
+          "brand",
+          "seal",
+          "collection"
+        ]
       },
       "charles_stenerson_email_signature": {
         "id": "methodz.charles_stenerson_email_signature",
@@ -123,7 +162,14 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["methodz", "email", "signature", "charles-stenerson", "method-hvac", "method-hub"]
+        "tags": [
+          "methodz",
+          "email",
+          "signature",
+          "charles-stenerson",
+          "method-hvac",
+          "method-hub"
+        ]
       }
     },
     "canadian_soft_water": {
@@ -138,7 +184,11 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["canadian-soft-water", "logo", "dark"]
+        "tags": [
+          "canadian-soft-water",
+          "logo",
+          "dark"
+        ]
       },
       "icon": {
         "id": "canadian_soft_water.icon",
@@ -151,7 +201,11 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["canadian-soft-water", "icon", "favicon"]
+        "tags": [
+          "canadian-soft-water",
+          "icon",
+          "favicon"
+        ]
       },
       "csw_logo": {
         "id": "canadian_soft_water.csw_logo",
@@ -164,7 +218,12 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["canadian-soft-water", "csw", "logo", "official"]
+        "tags": [
+          "canadian-soft-water",
+          "csw",
+          "logo",
+          "official"
+        ]
       }
     },
     "method_hvac": {
@@ -179,7 +238,10 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "logo"]
+        "tags": [
+          "method-hvac",
+          "logo"
+        ]
       },
       "chain_logo": {
         "id": "method_hvac.chain_logo",
@@ -192,7 +254,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "chain", "logo"]
+        "tags": [
+          "method-hvac",
+          "chain",
+          "logo"
+        ]
       },
       "franco_logo": {
         "id": "method_hvac.franco_logo",
@@ -205,7 +271,13 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "franco", "partner", "method-ink", "wax-seal"]
+        "tags": [
+          "method-hvac",
+          "franco",
+          "partner",
+          "method-ink",
+          "wax-seal"
+        ]
       },
       "franco_horizontal": {
         "id": "method_hvac.franco_horizontal",
@@ -218,7 +290,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "franco", "horizontal"]
+        "tags": [
+          "method-hvac",
+          "franco",
+          "horizontal"
+        ]
       },
       "franco_vertical": {
         "id": "method_hvac.franco_vertical",
@@ -231,7 +307,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "franco", "vertical"]
+        "tags": [
+          "method-hvac",
+          "franco",
+          "vertical"
+        ]
       },
       "partnership": {
         "id": "method_hvac.partnership",
@@ -244,7 +324,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["method-hvac", "franco", "partnership"]
+        "tags": [
+          "method-hvac",
+          "franco",
+          "partnership"
+        ]
       }
     },
     "method_ink": {
@@ -259,7 +343,13 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["method-ink", "franco", "red", "wax", "seal"]
+        "tags": [
+          "method-ink",
+          "franco",
+          "red",
+          "wax",
+          "seal"
+        ]
       },
       "geometric_m": {
         "id": "method_ink.geometric_m",
@@ -272,7 +362,13 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["method-ink", "franco", "geometric", "m", "mark"]
+        "tags": [
+          "method-ink",
+          "franco",
+          "geometric",
+          "m",
+          "mark"
+        ]
       }
     },
     "lec": {
@@ -288,7 +384,35 @@
         "background": "dark",
         "transparent": false,
         "target_url": "https://lec-sales-tool.vercel.app",
-        "tags": ["lec", "icon", "first-aid", "sales", "partner"]
+        "tags": [
+          "lec",
+          "icon",
+          "first-aid",
+          "sales",
+          "partner"
+        ]
+      },
+      "seal": {
+        "id": "lec.seal",
+        "name": "L.E.C. Wax Seal (Learn Experience Contribute)",
+        "path": "logos/lec/seal.png",
+        "endpoint": "api/v1/assets/lec/seal.json",
+        "type": "png",
+        "category": "seal",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "transparent",
+        "transparent": true,
+        "target_url": "https://safetycertify.ca",
+        "tags": [
+          "lec",
+          "seal",
+          "wax-seal",
+          "safety",
+          "partner",
+          "transparent"
+        ],
+        "webp_path": "logos/lec/seal.webp"
       }
     },
     "misc": {
@@ -303,7 +427,11 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["bob", "gemini", "assistant"]
+        "tags": [
+          "bob",
+          "gemini",
+          "assistant"
+        ]
       },
       "methodz_main_reference": {
         "id": "misc.methodz_main_reference",
@@ -316,7 +444,10 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["methodz", "reference"]
+        "tags": [
+          "methodz",
+          "reference"
+        ]
       },
       "bobs_logo_canon": {
         "id": "misc.bobs_logo_canon",
@@ -329,7 +460,13 @@
         "version": "1.0.0",
         "background": "mixed",
         "transparent": false,
-        "tags": ["bob", "methodz", "assistant", "canon", "logo"]
+        "tags": [
+          "bob",
+          "methodz",
+          "assistant",
+          "canon",
+          "logo"
+        ]
       },
       "bob_field_capture": {
         "id": "misc.bob_field_capture",
@@ -342,7 +479,14 @@
         "version": "1.0.0",
         "background": "dark",
         "transparent": false,
-        "tags": ["bob", "field-capture", "methodz", "assistant", "branch", "hvac"]
+        "tags": [
+          "bob",
+          "field-capture",
+          "methodz",
+          "assistant",
+          "branch",
+          "hvac"
+        ]
       },
       "bobs_field": {
         "id": "misc.bobs_field",
@@ -356,7 +500,89 @@
         "background": "dark",
         "transparent": false,
         "target_url": "https://conquering.methodz.ca/",
-        "tags": ["bob", "bobs-field", "methodz", "assistant", "tool", "contract-builder", "conquering"]
+        "tags": [
+          "bob",
+          "bobs-field",
+          "methodz",
+          "assistant",
+          "tool",
+          "contract-builder",
+          "conquering"
+        ]
+      }
+    },
+    "bircham": {
+      "logo": {
+        "id": "bircham.logo",
+        "name": "Bircham Elk & Antler co. Logo",
+        "path": "logos/bircham/logo.png",
+        "endpoint": "api/v1/assets/bircham/logo.json",
+        "type": "png",
+        "category": "logo",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "transparent",
+        "transparent": true,
+        "target_url": "https://elk-treats.methodz.ca",
+        "tags": [
+          "bircham",
+          "elk",
+          "antler",
+          "logo",
+          "wordmark",
+          "partner",
+          "transparent"
+        ],
+        "webp_path": "logos/bircham/logo.webp",
+        "brand_name": "Bircham Elk & Antler co."
+      },
+      "emblem": {
+        "id": "bircham.emblem",
+        "name": "Bircham Elk & Antler co. Emblem",
+        "path": "logos/bircham/emblem.png",
+        "endpoint": "api/v1/assets/bircham/emblem.json",
+        "type": "png",
+        "category": "icon",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "transparent",
+        "transparent": true,
+        "target_url": "https://elk-treats.methodz.ca",
+        "tags": [
+          "bircham",
+          "elk",
+          "antler",
+          "emblem",
+          "icon",
+          "partner",
+          "transparent"
+        ],
+        "webp_path": "logos/bircham/emblem.webp",
+        "brand_name": "Bircham Elk & Antler co."
+      },
+      "banner": {
+        "id": "bircham.banner",
+        "name": "Bircham Elk & Antler co. Storefront Banner",
+        "path": "logos/bircham/banner.png",
+        "endpoint": "api/v1/assets/bircham/banner.json",
+        "type": "png",
+        "category": "banner",
+        "approved": true,
+        "version": "1.0.0",
+        "background": "transparent",
+        "transparent": true,
+        "target_url": "https://elk-treats.methodz.ca",
+        "tags": [
+          "bircham",
+          "elk",
+          "antler",
+          "banner",
+          "storefront",
+          "partner",
+          "transparent"
+        ],
+        "webp_path": "logos/bircham/banner.webp",
+        "brand_name": "Bircham Elk & Antler co."
       }
     }
   }
