@@ -1,0 +1,25 @@
+{
+  "id": "lec.seal",
+  "name": "L.E.C. Wax Seal (Learn Experience Contribute)",
+  "path": "logos/lec/seal.png",
+  "endpoint": "api/v1/assets/lec/seal.json",
+  "type": "png",
+  "category": "seal",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "transparent",
+  "transparent": true,
+  "target_url": "https://safetycertify.ca",
+  "tags": [
+    "lec",
+    "seal",
+    "wax-seal",
+    "safety",
+    "partner",
+    "transparent"
+  ],
+  "webp_path": "logos/lec/seal.webp",
+  "raw_url": "https://image.methodz.ca/logos/lec/seal.png",
+  "webp_url": "https://image.methodz.ca/logos/lec/seal.webp",
+  "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"
+}

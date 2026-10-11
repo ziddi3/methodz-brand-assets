@@ -1,0 +1,27 @@
+{
+  "id": "bircham.emblem",
+  "name": "Bircham Elk & Antler co. Emblem",
+  "path": "logos/bircham/emblem.png",
+  "endpoint": "api/v1/assets/bircham/emblem.json",
+  "type": "png",
+  "category": "icon",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "transparent",
+  "transparent": true,
+  "target_url": "https://elk-treats.methodz.ca",
+  "tags": [
+    "bircham",
+    "elk",
+    "antler",
+    "emblem",
+    "icon",
+    "partner",
+    "transparent"
+  ],
+  "webp_path": "logos/bircham/emblem.webp",
+  "brand_name": "Bircham Elk & Antler co.",
+  "raw_url": "https://image.methodz.ca/logos/bircham/emblem.png",
+  "webp_url": "https://image.methodz.ca/logos/bircham/emblem.webp",
+  "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"
+}
