@@ -1,0 +1,19 @@
+{
+  "id": "lec.cherie-oval",
+  "name": "L.E.C. Cherie Gold Oval (Learn Experience Contribute Inc.)",
+  "path": "logos/lec/cherie-oval.svg",
+  "endpoint": "api/v1/assets/lec/cherie-oval.json",
+  "type": "svg",
+  "category": "emblem",
+  "approved": true,
+  "version": "1.0.0",
+  "background": "transparent",
+  "transparent": true,
+  "width": 900,
+  "height": 529,
+  "notes": "Fake checkerboard removed 2026-10-18; SVG wraps a transparent WebP. 2356x1385 PNG master kept on the Grok Bot box (lecpay/contrast-fix/cherie/lec-cherie-oval-hd.png), to be added as cherie-oval.png.",
+  "target_url": "https://safetycertify.ca",
+  "tags": ["lec", "cherie", "emblem", "gold", "oval", "transparent"],
+  "raw_url": "https://image.methodz.ca/logos/lec/cherie-oval.svg",
+  "manifest_url": "https://image.methodz.ca/api/v1/manifest.json"
+}
